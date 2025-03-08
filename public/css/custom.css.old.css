@@ -1,0 +1,106 @@
+
+
+/* Move the main content to the right */
+#main {
+    margin-left: 250px !important;
+   margin-top: -20px !important;  /* ✅ Moves content up */
+    padding-top: 0px !important;
+ 	width: auto !important;
+}
+
+/* Ensure sidebar stays fixed on the left */
+.custom-sidebar {
+    position: absolute !important;  /* Ensures it's placed below the header */
+    top: 200px; /* Adjust this value as needed to position correctly */
+    left: 5x;   
+    width: 300px;
+    min-height: 100vh !important;  /* ✅ Ensures it extends to the full page */
+    height: calc(100vh - 120px) !important;  /* ✅ Limits height to fit screen */
+    overflow-y: auto !important;  /* ✅ Enables scrolling if content overflows */
+    background: #fffff8;
+    z-index: 1000;
+}
+
+.brand {
+    position: relative !important;  /* ✅ Ensures proper flow */
+    left: 200px !important;  /* ✅ Moves everything right */
+    top: 0px !important;  /* ✅ Ensures vertical alignment */
+    width: 100% !important;  /* ✅ Expands header width */
+    display: block !important;  /* ✅ Forces title and menu inline */
+    align-items: center !important;  /* ✅ Centers items vertically */
+    justify-content: space-between !important;  /* ✅ Even spacing */
+    padding-bottom: 10px;  /* ✅ Adds spacing before <hr> */
+}
+
+
+.menu {
+    margin-left: 20px; /* Ensures the menu is not covered by the sidebar */
+    display: block !important;  /* ✅ Forces menu to be stacked below title */
+    margin-top: 10px !important;  /* ✅ Adds spacing between title and menu */
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    max-width: 100% !important;
+    padding-left: 0px !important;  /* ✅ Removes the extra space */
+    margin-left: 40px !important;   /* ✅ Ensures no forced offset */
+    width: 100% !important;
+}
+
+
+.custom-sidebar, main {
+    max-width: 100% !important; /* ✅ Override 735px limit */
+    width: auto !important; /* ✅ Allow natural expansion */
+}
+
+
+.brand a {
+    color: #a00000 !important; /* ✅ Ensure links in header match */
+    text-decoration: none; /* ✅ Removes underline */
+}
+
+.menu ul {
+    display: flex !important;  /* ✅ Forces menu items inline */
+    flex-wrap: nowrap !important;  /* ✅ Prevents wrapping */
+    justify-content: flex-end !important;  /* ✅ Aligns menu to right */
+    width: auto !important;  /* ✅ Allows natural width */
+}
+
+
+.menu a {
+    color: #a00000 !important; /* ✅ Menu links in dark red */
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline; /* ✅ Subtle hover effect */
+}
+
+.custom-sidebar {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;
+    color: #a00000 !important;
+    background-color: transparent !important; /* ✅ Remove background */
+    border: none !important; /* ✅ Removes any existing border */
+}
+
+.custom-sidebar a {
+    color: #a00000 !important;  /* ✅ Sidebar links match header */
+    text-decoration: none;
+}
+
+.custom-sidebar a:hover {
+    text-decoration: underline; /* ✅ Hover effect */
+}
+
+.header-divider {
+    width: 100% !important;  /* ✅ Ensures it spans correctly */
+    margin-top: 10px !important;  /* ✅ Creates spacing from menu */
+    border: none;  /* ✅ Prevents extra lines */
+    border-top: 2px solid #a00000;  /* ✅ Adds a clean top border */
+}
+

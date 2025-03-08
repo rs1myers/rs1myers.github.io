@@ -1,0 +1,68 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tertium Quid: post-modern magical consciousness'
+
+theme = "hugo-tufte"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Articles"
+url = "/articles/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+[[menu.sidebar]]
+    identifier = "philosophy"
+    name = "Philosophy"
+    url = "/philosophy/"
+    weight = 1
+
+[[menu.sidebar]]
+    parent = "philosophy"
+    name = "Spiritual Frameworks"
+    url = "/articles/spiritual-frameworks/"
+    weight = 2
+
+[[menu.sidebar]]
+    parent = "philosophy"
+    name = "Mind & Cosmos"
+    url = "/articles/Thomas_Nagel/"
+    weight = 3
+
+[menu.sidebar]]
+    identifier = "science"
+    name = "Science & Consciousness"
+    url[ = "/science/"
+    weight = 4
+
+[[menu.sidebar]]
+    parent = "science"
+    name = "Scientific Method"
+    url = "/articles/scientific_method"
+    weight = 5
+
+[[menu.sidebar]]
+    parent = "science"
+    name = "The Limits of Willpower"
+    url = "/neuroscience/"
+    weight = 6
+	
+[[menu.sidebar]]
+    identifier = "practices"
+    name = "Practices"
+    url = "/practices/"
+    weight = 7
