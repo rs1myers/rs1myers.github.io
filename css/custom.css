@@ -92,13 +92,24 @@ main {
     margin: 0 !important;
     list-style-type: none !important;
    font-size: 14px !important;
+
 }
 
 .custom-sidebar li {
     width: 100% !important;  /* ✅ Makes sure list items take full width */
     display: block !important;
+    margin-bottom: -10px;  /* Adjust to reduce spacing */
+    padding-bottom: 0;   /* Remove extra padding if needed */
+
 }
 
+.custom-sidebar ul li:first-child {
+    margin-top: -5px; /* Adjust as needed */
+}
+
+.custom-sidebar ul li:last-child {
+    margin-bottom: 20px; /* Increase to push the next category down */
+}
 
 .custom-sidebar strong {  /* ✅ Category Headings */
     font-size: 14px !important;

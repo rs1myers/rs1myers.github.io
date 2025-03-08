@@ -6,30 +6,36 @@
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/articles.html</loc>
+    <loc>http://example.org/articles/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/test-newthought.html.html</loc>
+    <loc>http://example.org/articles/test-newthought/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/scientific_method.html.html</loc>
+    <loc>http://example.org/articles/scientific_method/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/spiritual-frameworks.html.html</loc>
+    <loc>http://example.org/articles/spiritual_frameworks/</loc>
     <lastmod>2024-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories.html</loc>
+    <loc>http://example.org/categories/</loc>
   </url><url>
-    <loc>http://example.org/articles/classical_worldview.html.html</loc>
+    <loc>http://example.org/articles/classical_worldview/</loc>
   </url><url>
-    <loc>http://example.org/articles/full_humanness.html.html</loc>
+    <loc>http://example.org/articles/full_humanness/</loc>
   </url><url>
-    <loc>http://example.org/articles/fusion_illusion_c2.html.html</loc>
+    <loc>http://example.org/articles/fusion_illusion/</loc>
   </url><url>
-    <loc>http://example.org/articles/life_organizing_principles.html.html</loc>
+    <loc>http://example.org/articles/life_organizing_principles/</loc>
   </url><url>
-    <loc>http://example.org/tags.html</loc>
+    <loc>http://example.org/articles/phoenix_affirmations/</loc>
   </url><url>
-    <loc>http://example.org/articles/thomas_nagel.html.html</loc>
+    <loc>http://example.org/articles/physicalism/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/articles/thomas_nagel/</loc>
+  </url><url>
+    <loc>http://example.org/articles/dark_mountain/</loc>
   </url>
 </urlset>
