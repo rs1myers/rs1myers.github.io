@@ -1,0 +1,11 @@
+---
+title: "about this site"
+date: 2025-03-04
+---
+
+This website is a stand-in for my end of conversations I would enjoy having with a few like-minded, perhaps over pints of our favorite.{{< sidenote >}}Wistfully picturing a farm-league version of The Inklings, the name  Owen Barfield, C.S. Lewis, J.R. Tolkien and Charles Williams adopted for their decade-long gatherings at the Eagle and Child pub to discuss their works and ideas about literature, philosophy and theology.  {{< /sidenote >}} It's an early-stage hodgepodge of ideas that strike me as fitting together in a view of the world that accommodates some of the major things that we know (or should know) to be true about the world, in particular the immense range of consciousness exhibited by (at least some) humans and, my mild obsession with cetacean intelligence. that accommodates a broad range of what we have reason to believe is true.  
+
+## Edward Tufte style ##
+
+The site is built with a Hugo [tufte-theme](https://github.com/loikein/hugo-tufte) built around a [CSS package](https://edwardtufte.github.io/tufte-css/) developed by [Dave Liepman](https://www.daveliepmann.com/) "to style web articles using the ideas demonstrated by Edward Tufte's books and handouts."  Tufte is revered by many for his simple, elegant approach to presenting information, particularly data visualization.  Many of his books, all self-published,{{< sidenote >}}Tufte was turned down by numerous publishing houses, finally deciding to mortgage his house and self-publish his first book [*The Visual Display of Quantitative Information*](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information) in 1983.{{< /sidenote >}} are widely considered classics by technical editors and professionals whose job includes communicating technical information. Tufte has a particularly low regard for Power Point presentations: his 2003 eBook [*The Cognitive Style of PowerPoint: Pitching Out Corrupts Within*](https://www.edwardtufte.com/book/the-cognitive-style-of-powerpoint-pitching-out-corrupts-within-ebook/) argues that Power Point presentations may have significantly contributed to the Columbia shuttle disaster through 
+jargon-heavy, carelessly structured bullet points by Boeing engineers in presentations about the potential for foam debris to have damaged the shuttle's wing. 

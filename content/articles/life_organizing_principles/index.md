@@ -7,7 +7,7 @@ output:
 ---
 
 
-Would that more people followed these seemingly simple principles{{< sidenote >}}Summarized from the works of Alice Bailey, particularly *A{{< /sidenote >}}
+Would that more people followed these seemingly simple principles{{< sidenote >}}Summarized from the works of Alice Bailey, particularly *A Treatise on White Magic*.{{< /sidenote >}}
 
 ## Above all, practice harmlessness
 
@@ -129,4 +129,4 @@ Would that more people followed these seemingly simple principles{{< sidenote >}
 
 ## Live a life which is an example for others
 
-    Treatise on White Magic*.
+ 
